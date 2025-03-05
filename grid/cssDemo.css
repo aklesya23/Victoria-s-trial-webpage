@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: grid;
+    gap: 10px; /* Gap between rows and columns*/
+    max-width: 400px;
+    margin: 0 auto;
+     padding: 20px;
+     background: white; /* White background for container*/
+
+}
+
+.box-row{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    gap: 10px;
+}
+.box {
+    background-color: #e87b00; /* orange color*/
+    border: 2px solid lightgreen; /* light green outline */
+    padding: 20px;
+    text-align: center;
+    color:black;
+    box-sizing: border-box; /*  include padding and border in elements total width and height*/
+}
+
+
